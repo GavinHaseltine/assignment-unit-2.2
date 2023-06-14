@@ -25,10 +25,10 @@ if (number >= 2) {
 */
 
 
-// 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// 1. We made a variable called 'name' then assigned it to the value of "Dane".
+// Name is then checked to see if its value is exactly equal to 'Mary', via the useage of '==='.
+// since the value of name is not 'Mary' it does not console.log "Hi, Mary!"
+// The else statement prompts it to instead console.log "How do you do?" since the value of name is not the same as "Mary".
 //
 
 //CODE
@@ -44,11 +44,13 @@ if (name === 'Mary') {
 
 */
 
-// 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// 2. We declare 'secret' as a variable with no value and 'code' with a value of 123.
+// An if statement checks to see if 'code' equals 123, which it does.
+// When it does, it assigns a new value to 'secret' which is 'super'.
+// It also assigns a new value to code, that being the value of code (123) multiplied by two.
+// another if statement checks if the new value of code is greater than 250, if this is true, the value of 'secret' will be changed to 'duper'
+// However, 246 is not greater than 250, so the value of secret stays as 'super'
+// When the value of secret is console logged, it will output 'super'
 
 //CODE
 /*
@@ -69,11 +71,14 @@ console.log(secret)
 
 */
 
-// 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// 3. We declare the variables 'isStudent', 'age' and 'zip' and assign a value to them.
+// An if statement checks to see if 'isStudent' equals true (which it is) but it also checks if 'zip' is greater than 80000, which it is not.
+// Even though the first part is true, the second is not. So it will not console log "you're a student on the west coast". 
+// Since it is not true, it will move to the else statement. It checks if 'isStudent' equals false and if 'age' is less than 30. This is of course not true. so it moves to the next else statement.
+//The next else statment checks if 'isStudent' equals true, which it does!
+//so it will then execute the console log "Welcome to Prime!"
+// The last else statement will execute if the previous statment was false.
+
 
 //CODE
 /*
