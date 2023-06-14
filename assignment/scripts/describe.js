@@ -144,6 +144,12 @@ if (mix === true) {
 }
 */
 
+// FIX - 'colorOne' is set to 'red' but the instructions ask for it to be 'blue'
+// 'colorTwo' is set to 'blue' when it should be 'red'.
+// Only 'colorOne' will be set to 'purple' in this line.
+// We would have to also add "colorTwo = 'purple';" to make them both purple.
+
+
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
@@ -156,6 +162,9 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+
+// FIX - // FIX - Time is not a variable in this case as its a constant and cant change
+
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -172,3 +181,5 @@ if(minAge <= age) {
 }
 */
 
+// FIX - Since minAge has less than OR EQUAL TO, following this logic you could
+// be denied acess for being 21
