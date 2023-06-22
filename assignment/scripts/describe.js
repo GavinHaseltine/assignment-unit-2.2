@@ -163,7 +163,9 @@ if (temp > 39 || time >= 4) {
 }
 */
 
-// FIX - // FIX - Time is not a variable in this case as its a constant and cant change
+// FIX - The statement uses "||" which is the operator for "or" which is not what the instructions say.
+// "||" should be replaced with "&&". Like so
+//if (temp > 39 && time >= 4) 
 
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -183,3 +185,5 @@ if(minAge <= age) {
 
 // FIX - Since minAge has less than OR EQUAL TO, following this logic you could
 // be denied acess for being 21
+// The 'no entry' should be swapped with 'enter' as if the statment is false-
+// it will move to the else statement which is 'enter'.
